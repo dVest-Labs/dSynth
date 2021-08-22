@@ -26,7 +26,7 @@ const Nav = () => {
             <div className="flex flex-row items-center">
               <Link href="/manage">
                 <a className="text-xs md:text-lg text-black p-2 md:p-6 hover:text-green cursor-pointer font-bold">
-                  Manage
+                  Managessssss
                 </a>
               </Link>
               <Link href="/loan">
