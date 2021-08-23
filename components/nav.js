@@ -19,8 +19,7 @@ const Nav = () => {
             <Link href="/">
               <a>
                 <div className="flex flex-row items-center">
-                  <img src="/conjure.png" alt="nft dao" />
-                  <h3 className="text-xs md:text-lg text-black font-bold">Conjure</h3>
+                  <img src="/dSynth.png" alt="nft dao" />
                 </div>
               </a>
             </Link>
