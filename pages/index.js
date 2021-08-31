@@ -169,21 +169,21 @@ function Home() {
 
                 <div className="py-4 w-full flex justify-center ">
                     <div
-                        className="py-4 rounded-2xl w-full min-w-0 min-h-0 bg-purple-600">
+                        className="py-4 rounded-2xl w-full min-w-0 min-h-0 bg-gray-800 border-2 border-blue-600">
                         <p className="text-center text-lg font-bold text-white">
-                            Welcome to Conjure
+                            Welcome to Dsynth
                         </p>
                         <br/>
                         <p className="text-center text-md font-bold text-white">
-                            Conjure any fully collateralized, permissionless synthetic asset you want! Any oracle, any asset type and in only 2 transactions.
+                            Dsynth any fully collateralized, permissionless synthetic asset you want! Any oracle, any asset type and in only 2 transactions.
                         </p>
                     </div>
                 </div>
                 <div className="py-4 w-full flex justify-center">
                     <div
-                        className="py-4 rounded-2xl w-full min-w-0 bg-purple-600">
+                        className="py-4 rounded-2xl w-full min-w-0 bg-gray-800 border-2 border-blue-600">
                         <p className="text-center text-lg font-bold text-white">
-                            Start creating your Conjure Asset
+                            Start creating your Dsynth Asset
                         </p>
 
                     </div>
@@ -192,7 +192,7 @@ function Home() {
                 <div className="py-4 w-full">
                     <div className="md:flex flex-row w-full justify-center">
                         <div
-                            className="py-4 pr-2 pl-2 sm:mr-2 mt-2 rounded-2xl w-full md:w-6/12 min-w-0 bg-purple-500">
+                            className="py-4 pr-2 pl-2 sm:mr-2 mt-2 rounded-2xl w-full md:w-6/12 min-w-0 bg-gray-800 border-2 border-blue-600">
                             <p className="text-center text-lg font-bold text-white">
                                 Name
                             </p>
@@ -200,7 +200,7 @@ function Home() {
                                    onChange={e => handleChangeTokenName(e)}/>
                         </div>
                         <div
-                            className="py-4 pl-2 pr-2 mt-2 rounded-2xl w-full md:w-6/12 min-w-0 bg-purple-500">
+                            className="py-4 pl-2 pr-2 mt-2 rounded-2xl w-full md:w-6/12 min-w-0 bg-gray-800 border-2 border-blue-600">
                             <p className="text-center text-lg font-bold text-white">
                                 Symbol
                             </p>
@@ -212,7 +212,7 @@ function Home() {
 
                 <div className="pt-8 w-full text-center">
                     <button
-                        className="py-3 pr-2 pl-2 rounded-3xl w-6/12 bg-gradient-to-r from-pink-500 to-purple-500 hover:bg-purple-300 cursor-pointer"
+                        className="py-3 pr-2 pl-2 rounded-3xl w-6/12 bg-blue-600 hover:bg-gray-800 cursor-pointer border-2 border-blue-500 cursor-pointer"
                         type="button"
                         onClick={callConjureMint} disabled={button_enabled}>
                         <p className="capitalize text-center text-sm  font-bold text-white">{unlocktext}</p>

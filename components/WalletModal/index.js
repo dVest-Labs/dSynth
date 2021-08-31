@@ -94,7 +94,7 @@ const WalletModal = () => {
               width: 90px;
             }
             button {
-              background-color: #A78BFA;
+              background-color: #078BFA;
               width: 200px;
             }
             button:hover {
