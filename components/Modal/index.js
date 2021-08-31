@@ -64,7 +64,7 @@ export const Modal = ({
       </DialogContent>
       <style jsx global>{`
         [data-reach-dialog-overlay] {
-          background: hsla(0, 0%, 0%, 0.66);
+          background: hsla(0, 0%, 0%, 0.6);
           position: fixed;
           display: grid;
           padding: 0 1rem 3rem 1rem;
@@ -83,7 +83,7 @@ export const Modal = ({
           width: 100%;
           border-radius: 1rem;
           outline: none;
-          background-color: #805ad5;
+          background-color: #105ad5;
         }
 
         .mw-regular {

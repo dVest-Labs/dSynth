@@ -709,7 +709,7 @@ function Manage() {
                 <div className="py-4 w-full flex justify-center">
                     <div className="py-4  rounded-2xl  w-full bg-purple-500">
                         <p className="text-center text-lg font-bold text-white">
-                            Manage your Conjure Asset
+                            Manage your Dsynth Asset
                         </p>
                     </div>
                 </div>
@@ -718,7 +718,7 @@ function Manage() {
                     <div className="md:flex flex-row w-full justify-center">
                         <div className="py-4 pr-2 pl-2  rounded-2xl w-full md:w-6/12 bg-purple-500">
                             <p className="text-center text-lg font-bold text-white">
-                                Enter Conjure Address or ENS Name
+                                Enter Dsynth Address or ENS Name
                             </p>
                             <input required className="text-center w-full justify-center" type="text"
                                    onChange={e => handleChangeConjureAddress( e)} value={conjureAddress}/>

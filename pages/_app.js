@@ -9,7 +9,7 @@ import "../styles/tailwind.css";
 function ConjureApp({ Component, pageProps }) {
   return (
     <Web3ReactProvider getLibrary={getLibrary}>
-      <div className="flex min-h-screen flex-col bg-purple-200">
+      <div className="flex min-h-screen flex-col bg-gray-900">
         <Nav />
 
         <div className="flex-auto ">
