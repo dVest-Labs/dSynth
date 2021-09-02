@@ -12,27 +12,27 @@ const BottomNav = () => {
 
                     <div className=" flex-row items-center text-center">
                         <Link href="mailto:pr0@keychain.me">
-                            <a className="text-xs md:text-lg text-black p-2 md:p-6 hover:text-green cursor-pointer font-bold" target="_blank">
+                            <a className="text-xs md:text-lg text-white p-2 md:p-6 hover:text-green cursor-pointer font-bold" target="_blank">
                                 Contact
                             </a>
                         </Link>
                         <Link href="https://twitter.com/conjurefi">
-                            <a className="text-xs md:text-lg text-black p-2 md:p-6 hover:text-green cursor-pointer font-bold" target="_blank">
+                            <a className="text-xs md:text-lg text-white p-2 md:p-6 hover:text-green cursor-pointer font-bold" target="_blank">
                                 Twitter
                             </a>
                         </Link>
                         <Link href="https://discord.gg/dQaujwYd7Y">
-                            <a className="text-xs md:text-lg text-black p-2 md:p-6 hover:text-green cursor-pointer font-bold" target="_blank">
+                            <a className="text-xs md:text-lg text-white p-2 md:p-6 hover:text-green cursor-pointer font-bold" target="_blank">
                                 Discord
                             </a>
                         </Link>
                         <Link href={hyperlink}>
-                            <a className="text-xs md:text-lg text-black p-2 md:p-6 hover:text-green cursor-pointer font-bold" target="_blank">
+                            <a className="text-xs md:text-lg text-white p-2 md:p-6 hover:text-green cursor-pointer font-bold" target="_blank">
                                 View Contract
                             </a>
                         </Link>
                         <Link href="https://rinkeby.conjure.finance">
-                            <a className="text-xs md:text-lg text-black p-2 md:p-6 hover:text-green cursor-pointer font-bold" target="_blank">
+                            <a className="text-xs md:text-lg text-white p-2 md:p-6 hover:text-green cursor-pointer font-bold" target="_blank">
                                 Rinkeby Dapp
                             </a>
                         </Link>
