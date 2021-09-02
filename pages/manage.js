@@ -706,22 +706,22 @@ function Manage() {
         <div className="container">
             <div className="py-16 min-w-full flex flex-col justify-start items-center">
 
-                <div className="py-4 w-full flex justify-center">
-                    <div className="py-4  rounded-2xl  w-full bg-purple-500">
-                        <p className="text-center text-lg font-bold text-white">
-                            Manage your Dsynth Asset
+                <div className="py-4 flex justify-center">
+                    <div className="py-4 px-4 rounded-2xl ">
+                        <p className="text-center text-3xl font-bold text-white">
+                            Manage your dSynth Asset
                         </p>
                     </div>
                 </div>
                 <div className="py-4 w-full">
 
                     <div className="md:flex flex-row w-full justify-center">
-                        <div className="py-4 pr-2 pl-2  rounded-2xl w-full md:w-6/12 bg-purple-500">
-                            <p className="text-center text-lg font-bold text-white">
-                                Enter Dsynth Address or ENS Name
+                        <div className="py-4 pr-2 pl-2 w-full md:w-6/12">
+                            <p className="text-center text-lg font-bold text-white pb-5">
+                                Enter dSynth Address or ENS Name
                             </p>
-                            <input required className="text-center w-full justify-center" type="text"
-                                   onChange={e => handleChangeConjureAddress( e)} value={conjureAddress}/>
+                            <input required className="text-center text-xl w-full  h-10 justify-center rounded-full focus:outline-none" type="text"
+                                onChange={e => handleChangeConjureAddress( e)} value={conjureAddress}/>
                         </div>
 
                     </div>
@@ -730,9 +730,9 @@ function Manage() {
 
                     <div className="py-1 w-full flex justify-center text-center">
                         <div className="py-1 w-full">
-                            <button className="py-3 pr-2 pl-2 rounded-3xl md:w-3/12 w-6/12 hover:bg-purple-300 cursor-pointer bg-gradient-to-r from-pink-500 to-purple-500"
+                            <button className="py-3 pr-2 pl-2 rounded-3xl md:w-3/12 w-6/12 hover:bg-btn-selected cursor-pointer border-4 border-btn-selected filter drop-shadow-2xl focus:outline-none "
                                     type="button" onClick={() => checkConjureDetails() }>
-                                <p className="capitalize text-center text-sm font-bold text-white">Get Details</p>
+                                <p className="capitalize text-center text-2xl font-bold text-white">Get Details</p>
                             </button>
                         </div>
                     </div>
@@ -741,7 +741,7 @@ function Manage() {
                 {(ischecked === true && isinited === false) ? (
                     <div className="py-1 w-full">
                         <div className="py-4 w-full flex justify-center">
-                            <div className="py-4  rounded-2xl  w-full bg-purple-500">
+                            <div className="py-4  rounded-2xl  w-full bg-btn-selected">
                                 <p className="text-center text-lg font-bold text-white">
                                     Asset Specification
                                 </p>

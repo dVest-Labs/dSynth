@@ -169,42 +169,38 @@ function Home() {
 
                 <div className="py-4 w-full flex justify-center ">
                     <div
-                        className="py-4 rounded-2xl w-full min-w-0 min-h-0 bg-gray-800 border-2 border-blue-600">
-                        <p className="text-center text-lg font-bold text-white">
-                            Welcome to Dsynth
+                        className="py-4 w-full min-w-0 min-h-0 ">
+                        <p className="text-center text-8xl font-bold text-white">
+                            Welcome to <strong className="text-sky-500">d</strong>Synth
                         </p>
                         <br/>
-                        <p className="text-center text-md font-bold text-white">
-                            Dsynth any fully collateralized, permissionless synthetic asset you want! Any oracle, any asset type and in only 2 transactions.
+                        <p className="text-center text-2xl font-bold text-white">
+                            dSynth any fully collateralized, permissionless synthetic asset you want!<br /> Any oracle, any asset type and in only 2 transactions.
                         </p>
                     </div>
                 </div>
-                <div className="py-4 w-full flex justify-center">
-                    <div
-                        className="py-4 rounded-2xl w-full min-w-0 bg-gray-800 border-2 border-blue-600">
-                        <p className="text-center text-lg font-bold text-white">
-                            Start creating your Dsynth Asset
-                        </p>
-
-                    </div>
+                <div className="mt-3 px-10 py-1 min-w-min flex text-center rounded-full border-2 border-sky-500">
+                    <p className="text-center text-2xl font-bold text-white">
+                        Start creating your dSynth Asset
+                    </p>
                 </div>
 
-                <div className="py-4 w-full">
-                    <div className="md:flex flex-row w-full justify-center">
+                <div className="py-4 w-full ">
+                    <div className="md:flex flex-row justify-evenly">
                         <div
-                            className="py-4 pr-2 pl-2 sm:mr-2 mt-2 rounded-2xl w-full md:w-6/12 min-w-0 bg-gray-800 border-2 border-blue-600">
-                            <p className="text-center text-lg font-bold text-white">
+                            className="py-4 pr-2 pl-2 sm:mr-2 mt-2 rounded-2xl max-w-lg md:w-6/12 min-w-0">
+                            <p className="py-2 text-center text-lg font-bold text-white">
                                 Name
                             </p>
-                            <input required className="text-center w-full justify-center" type="text"
+                            <input required className="text-center text-xl w-full  h-10 justify-center rounded-full focus:outline-none" type="text"
                                    onChange={e => handleChangeTokenName(e)}/>
                         </div>
                         <div
-                            className="py-4 pl-2 pr-2 mt-2 rounded-2xl w-full md:w-6/12 min-w-0 bg-gray-800 border-2 border-blue-600">
-                            <p className="text-center text-lg font-bold text-white">
+                            className="py-4 pl-2 pr-2 mt-2 rounded-2xl max-w-lg md:w-6/12 min-w-0">
+                            <p className="py-2 text-center text-lg font-bold text-white">
                                 Symbol
                             </p>
-                            <input className="text-center w-full justify-center" type="text"
+                            <input className="text-center text-xl w-full  h-10 justify-center rounded-full focus:outline-none" type="text"
                                    onChange={e => handleChangeTokenSymbol(e)}/>
                         </div>
                     </div>
@@ -212,10 +208,10 @@ function Home() {
 
                 <div className="pt-8 w-full text-center">
                     <button
-                        className="py-3 pr-2 pl-2 rounded-3xl w-6/12 bg-blue-600 hover:bg-gray-800 cursor-pointer border-2 border-blue-500 cursor-pointer"
+                        className="py-2 px-8 rounded-full hover:bg-btn-selected cursor-pointer min-w-min border-4 border-btn-selected filter drop-shadow-2xl"
                         type="button"
                         onClick={callConjureMint} disabled={button_enabled}>
-                        <p className="capitalize text-center text-sm  font-bold text-white">{unlocktext}</p>
+                        <p className="capitalize text-center text-2xl font-bold text-white ">{unlocktext}</p>
                     </button>
                 </div>
             </div>

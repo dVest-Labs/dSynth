@@ -36,7 +36,7 @@ const Nav = () => {
               </Link>
 
               <button
-                  className="py-3 pr-2 pl-2 rounded-3xl hover:bg-gray-800 cursor-pointer border-2 border-blue-500"
+                  className="py-1 px-2 rounded-full focus:outline-none hover:bg-btn-selected cursor-pointer border-2"
                   type="button" onClick={toggleWalletModal}>
                 <p className="text-xs md:text-lg p-2 font-bold">{!!account ? "My Wallet" : "Unlock Wallet"}</p>
               </button>
@@ -55,7 +55,7 @@ const Nav = () => {
             bottom: 2px;
           }
           button {
-            background-color: #078BFA;
+            // background-color: #078BFA;
           }
           button > p {
             color: white;
