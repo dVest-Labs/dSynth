@@ -165,7 +165,7 @@ function Home() {
     return (
 
         <div className="container">
-            <div className="py-16 min-w-full flex flex-col justify-start items-center min-w-0 min-h-0 ">
+            <div className="py-4 min-w-full flex flex-col justify-start items-center min-w-0 min-h-0 ">
 
                 <div className="py-4 w-full flex justify-center ">
                     <div
@@ -185,7 +185,7 @@ function Home() {
                     </p>
                 </div>
 
-                <div className="py-4 w-full ">
+                <div className="py-1 w-full ">
                     <div className="md:flex flex-row justify-evenly">
                         <div
                             className="py-4 pr-2 pl-2 sm:mr-2 mt-2 rounded-2xl max-w-lg md:w-6/12 min-w-0">
@@ -206,7 +206,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="pt-8 w-full text-center">
+                <div className="pt-2 w-full text-center">
                     <button
                         className="py-2 px-8 rounded-full hover:bg-btn-selected cursor-pointer min-w-min border-4 border-btn-selected filter drop-shadow-2xl"
                         type="button"
