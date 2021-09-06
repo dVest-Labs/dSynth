@@ -16,7 +16,7 @@ function ConjureApp({ Component, pageProps }) {
           <Component {...pageProps} />
         </div>
         <div>
-          <h1 className="text-white text-2xl text-center font-bold">Powered by dVestLabs @ Conjure Finance</h1>
+          <h1 className="text-white text-2xl text-center font-bold">Powered by dVestLabs & Conjure Finance</h1>
           <div className="flex flex-row justify-center pt-1 pb-5">
             <a href="https://dvest.org/">
               <img width="70" height="70" src="/dVest.png" alt="dVest" />

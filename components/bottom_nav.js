@@ -11,17 +11,37 @@ const BottomNav = () => {
                 <footer className="container w-full text-center">
 
                     <div className=" flex-row items-center text-center">
-                        <Link href="mailto:pr0@keychain.me">
+                        <Link href=" https://docs.dvest.org/">
+                            <a className="text-xs md:text-lg text-white p-2 md:p-6 hover:text-green cursor-pointer font-bold" target="_blank">
+                                Docs
+                            </a>
+                        </Link>
+                        <Link href=" https://dvest.org/">
+                            <a className="text-xs md:text-lg text-white p-2 md:p-6 hover:text-green cursor-pointer font-bold" target="_blank">
+                                dVest Labs
+                            </a>
+                        </Link>
+                        <Link href="https://main.ddexx.io/">
+                            <a className="text-xs md:text-lg text-white p-2 md:p-6 hover:text-green cursor-pointer font-bold" target="_blank">
+                                dDEXX
+                            </a>
+                        </Link>
+                        <Link href="https://defivest.io/">
+                            <a className="text-xs md:text-lg text-white p-2 md:p-6 hover:text-green cursor-pointer font-bold" target="_blank">
+                                DeFiVest
+                            </a>
+                        </Link>
+                        <Link href=" mailto:info@ddexx.io">
                             <a className="text-xs md:text-lg text-white p-2 md:p-6 hover:text-green cursor-pointer font-bold" target="_blank">
                                 Contact
                             </a>
                         </Link>
-                        <Link href="https://twitter.com/conjurefi">
+                        <Link href=" https://twitter.com/dVestProject">
                             <a className="text-xs md:text-lg text-white p-2 md:p-6 hover:text-green cursor-pointer font-bold" target="_blank">
                                 Twitter
                             </a>
                         </Link>
-                        <Link href="https://discord.gg/dQaujwYd7Y">
+                        <Link href="https://discord.gg/zypXRbUBpw">
                             <a className="text-xs md:text-lg text-white p-2 md:p-6 hover:text-green cursor-pointer font-bold" target="_blank">
                                 Discord
                             </a>
